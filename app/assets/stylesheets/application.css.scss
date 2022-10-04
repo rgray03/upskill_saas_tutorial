@@ -21,7 +21,7 @@
  }
 
 
-body, .navbar {
+.navbar, .home-callout {
  // Gradient provided by @_ighosh at uigradients.com
  background: #7F7FD5;  /* fallback for old browsers */
  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -31,4 +31,11 @@ body, .navbar {
 
 .navbar {
  border: none;
+}
+
+.home-callout {
+  color: white;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
